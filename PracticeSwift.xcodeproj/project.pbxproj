@@ -14,6 +14,7 @@
 		A4421A1620315D5E00CDA726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4421A1420315D5E00CDA726 /* LaunchScreen.storyboard */; };
 		A4421A2120315D5E00CDA726 /* PracticeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4421A2020315D5E00CDA726 /* PracticeSwiftTests.swift */; };
 		A4421A2C20315D5E00CDA726 /* PracticeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4421A2B20315D5E00CDA726 /* PracticeSwiftUITests.swift */; };
+		A4421A3A203217A800CDA726 /* QuoteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4421A39203217A800CDA726 /* QuoteProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A4421A2720315D5E00CDA726 /* PracticeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4421A2B20315D5E00CDA726 /* PracticeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSwiftUITests.swift; sourceTree = "<group>"; };
 		A4421A2D20315D5E00CDA726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4421A39203217A800CDA726 /* QuoteProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				A4421A0B20315D5E00CDA726 /* AppDelegate.swift */,
 				A4421A0D20315D5E00CDA726 /* ViewController.swift */,
+				A4421A39203217A800CDA726 /* QuoteProvider.swift */,
 				A4421A0F20315D5E00CDA726 /* Main.storyboard */,
 				A4421A1220315D5E00CDA726 /* Assets.xcassets */,
 				A4421A1420315D5E00CDA726 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4421A3A203217A800CDA726 /* QuoteProvider.swift in Sources */,
 				A4421A0E20315D5E00CDA726 /* ViewController.swift in Sources */,
 				A4421A0C20315D5E00CDA726 /* AppDelegate.swift in Sources */,
 			);

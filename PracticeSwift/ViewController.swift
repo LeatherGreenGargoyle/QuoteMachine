@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var QuoteLabel: UILabel!
+    
+    let mFacts = QuoteProvider().quotes
+    var mFactIdx = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        QuoteLabel.text = mFacts[mFactIdx]
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +27,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func onButtonClicked() {
+        mFactIdx = mFactIdx == mFacts.count - 1 ? 0 : mFactIdx + 1
+        QuoteLabel.text = mFacts[mFactIdx]
+    }
 }
 
